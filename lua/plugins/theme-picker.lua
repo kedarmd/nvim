@@ -18,14 +18,14 @@ return {
                     name = 'Catppuccin Macchiato',
                     colorscheme = 'catppuccin-macchiato',
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'tokyonight' } }
+                        require('lualine').setup{ options = { theme = 'tokyonight' } }
                     ]]
                 },
                 {
                     name = 'Catppuccin Mocha',
                     colorscheme = 'catppuccin-mocha',
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'tokyonight' } }
+                        require('lualine').setup{ options = { theme = 'tokyonight' } }
                     ]]
                 },
                 {
@@ -37,7 +37,7 @@ return {
                         })
                     ]],
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'onedark' } }
                     ]]
                 },
                 {
@@ -49,7 +49,7 @@ return {
                         })
                     ]],
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'onedark' } }
                     ]]
                 },
                 {
@@ -61,7 +61,7 @@ return {
                         })
                     ]],
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'onedark' } }
                     ]]
                 },
                 {
@@ -73,7 +73,7 @@ return {
                         })
                     ]],
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'onedark' } }
                     ]]
                 },
                 {
@@ -85,7 +85,7 @@ return {
                         })
                     ]],
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'onedark' } }
                     ]]
                 },
                 {
@@ -97,21 +97,21 @@ return {
                         })
                     ]],
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'onedark' } }
                     ]]
                 },
                 {
                     name = 'Tokyonight',
                     colorscheme = 'tokyonight-night',
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'tokyonight' } }
+                        require('lualine').setup{ options = { theme = 'tokyonight' } }
                     ]]
                 },
                 {
                     name = 'Tokyonight Storm',
                     colorscheme = 'tokyonight-storm',
                     after = [[
-                        require('lualine').setup{ options ={ theme = 'tokyonight' } }
+                        require('lualine').setup{ options = { theme = 'tokyonight' } }
                     ]]
                 },
                 {
