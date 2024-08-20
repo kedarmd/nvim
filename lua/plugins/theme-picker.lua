@@ -29,6 +29,13 @@ return {
                     ]]
                 },
                 {
+                    name = 'Nordic',
+                    colorscheme = 'nordic',
+                    after = [[
+                        require('lualine').setup{ options = { theme = 'onedark' } }
+                    ]]
+                },
+                {
                     name = 'Onedark',
                     colorscheme = 'onedark',
                     before = [[
