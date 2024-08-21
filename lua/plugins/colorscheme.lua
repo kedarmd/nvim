@@ -28,20 +28,25 @@ return {
 
             require("nordic").setup({
                 transparent_bg = true,
+                reduced_blue = false,
+                bright_border = false,
                 --     telescope = { style = "classic" },
-                --     override = {
-                --         CursorLine = {
-                --             bg = "#191919",
-                --             bold = false,
-                --         },
-                --         Visual = {
-                --             bg = "#151515",
-                --         },
-                --     },
+                override = {
+                    CursorLine = {
+                        -- bg = "#191919",
+                        bold = false,
+                    },
+                    --         Visual = {
+                    --             bg = "#151515",
+                    --         },
+                },
             })
             --
             -- vim.cmd("colorscheme nordic")
             -- vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "#1e2022" })
         end,
+    },
+    {
+        "arcticicestudio/nord-vim",
     }
 }

@@ -29,6 +29,9 @@ vim.opt.scrolloff = 10
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+-- Enable termguicolors colors
+vim.opt.termguicolors = true
+
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
 --  See `:help vim.highlight.on_yank()`

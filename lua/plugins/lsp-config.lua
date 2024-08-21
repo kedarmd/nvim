@@ -24,12 +24,6 @@ return {
                     local opts = { buffer = ev.buf, silent = true }
                     opts.desc = "Show line diagnostics"
                     vim.keymap.set("n", "<leader>ld", vim.diagnostic.open_float, opts)
-
-                    opts.desc = "Go to previous diagnostic"
-                    vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, opts)
-
-                    opts.desc = "Go to next diagnostic"
-                    vim.keymap.set("n", "]d", vim.diagnostic.goto_next, opts)
                 end
             })
 

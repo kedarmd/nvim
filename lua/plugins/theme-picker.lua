@@ -29,10 +29,17 @@ return {
                     ]]
                 },
                 {
+                    name = 'Nord',
+                    colorscheme = 'nord',
+                    after = [[
+                        require('lualine').setup{ options = { theme = 'auto' } }
+                    ]]
+                },
+                {
                     name = 'Nordic',
                     colorscheme = 'nordic',
                     after = [[
-                        require('lualine').setup{ options = { theme = 'onedark' } }
+                        require('lualine').setup{ options = { theme = 'nordic' } }
                     ]]
                 },
                 {
